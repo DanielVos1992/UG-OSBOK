@@ -3,10 +3,9 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: Open Source
-- file: OSPO
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
-- file: mymarkdownfile
+parts:
+  - caption: Introduction to open source and OSPO
+    chapters:
+    - file: Open Source
+    - file: OSPO
+
